@@ -1,0 +1,66 @@
+/* Global Styles */
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #f5f5f5, #e0ece4); /* Soft grayish-green gradient */
+    color: #333;
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, #004d6a, #006d77); /* Deep blue-green gradient */
+    color: #fff;
+    text-align: center;
+    padding: 80px 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.header-content h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    animation: fadeIn 2s ease-out;
+}
+
+.header-content p {
+    font-size: 1.5rem;
+    font-weight: 300;
+    opacity: 0.9;
+    animation: fadeIn 3s ease-out;
+}
+
+/* Intro Section */
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+    background-color: #ffffff;
+    border-bottom: 8px solid #ffdd73; /* Saffron border */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.intro-content {
+    max-width: 700px;
+    padding: 10px;
+}
+
+.profile-img {
+    width: 180px; /* Reduced width */
+    height: 180px; /* Reduced height to match */
+    border-radius: 50%;
+    border: 6px solid #ffdd73; /* Saffron border for emphasis */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Softer shadow */
+    margin-bottom: 20px;
+    object-fit: cover;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profi
